@@ -1,0 +1,4 @@
+name: XingChengCraft
+version: '${project.version}'
+main: org.rsfa.fx_mmm.xingchengcraft.XingChengCraft
+api-version: '1.19'
