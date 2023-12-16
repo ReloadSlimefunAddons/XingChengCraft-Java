@@ -23,8 +23,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <source>14</source>
+          <target>14</target>
         </configuration>
       </plugin>
       <plugin>
@@ -51,7 +51,7 @@
 
   <repositories>
 	  <repository>
-		  <id>jitpack.io</id>
+		  <id>jitpack</id>
 		  <url>https://jitpack.io</url>
 	  </repository>
 	  <repository>
@@ -82,6 +82,13 @@
 		  <artifactId>lombok</artifactId>
 		  <version>1.18.28</version>
 		  <scope>compile</scope>
+	  </dependency>
+	  <dependency>
+		  <groupId>com.github.SlimefunGuguProject</groupId>
+		  <artifactId>InfinityExpansion</artifactId>
+		  <version>master</version>
+		  <scope>system</scope>
+		  <systemPath>${project.basedir}/lib/InfinityExpansion-Build 11 (git f9fe427).jar</systemPath>
 	  </dependency>
   </dependencies>
 </project>
