@@ -1,4 +1,4 @@
-package org.rsfa.fx_mmm.xingchengcraft.materials.dust;
+package org.rsfa.fx_mmm.xingchengcraft.materials;
 
 import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
@@ -13,14 +13,13 @@ import org.bukkit.inventory.ItemStack;
 import org.rsfa.fx_mmm.xingchengcraft.materials.AbstractXingChengItemNotPlaceable;
 import org.rsfa.fx_mmm.xingchengcraft.objects.XCGroups;
 import org.rsfa.fx_mmm.xingchengcraft.XingChengCraft;
+import org.rsfa.fx_mmm.xingchengcraft.objects.XCItemStacks;
 
 import javax.annotation.Nonnull;
 
-public class Stardust extends AbstractXingChengItemNotPlaceable implements GEOResource {
+public class Stardust extends UnplaceableBlock implements GEOResource {
     public Stardust() {
-        super(new SlimefunItemStack("XC_Stardust", new CustomItemStack(Material.GUNPOWDER, "&9星尘",
-                        "&o星际中的尘埃", "", "&3星辰工艺材料")),
-                RecipeType.GEO_MINER, new ItemStack[]{});
+        super(XCGroups.MATERIALS_GROUP, XCItemStacks.STARDUST, RecipeType.GEO_MINER, new ItemStack[]{});
 
         super.register(XingChengCraft.instance);
         register();
