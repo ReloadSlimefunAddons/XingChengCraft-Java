@@ -2,6 +2,7 @@ package org.rsfa.fx_mmm.xingchengcraft;
 
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.rsfa.fx_mmm.xingchengcraft.objects.XCGroups;
 
 import javax.annotation.Nonnull;
 
@@ -13,6 +14,7 @@ public final class XingChengCraft extends JavaPlugin implements SlimefunAddon {
     public void onEnable() {
         // Plugin startup logic
         instance = this;
+        XCGroups.setup(this);
     }
 
     @Override

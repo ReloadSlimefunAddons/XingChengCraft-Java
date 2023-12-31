@@ -5,7 +5,7 @@ import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import org.bukkit.inventory.ItemStack;
 import org.rsfa.fx_mmm.xingchengcraft.materials.Stardust;
-import org.rsfa.fx_mmm.xingchengcraft.materials.info.XCCentrifugeTips;
+import org.rsfa.fx_mmm.xingchengcraft.materials.XCInfoItems;
 
 import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.ENDER_LUMP_3;
 import static io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems.MAGIC_LUMP_3;
@@ -42,9 +42,9 @@ public class XCItems {
             }
     );
 
-    public static final UnplaceableBlock DRACONIUM_DUST = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.DRACONIUM_DUST, RecipeType.NULL, new ItemStack[]{XCCentrifugeTips.INSTANCE.getItem()});
+    public static final UnplaceableBlock DRACONIUM_DUST = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.DRACONIUM_DUST, RecipeType.NULL, new ItemStack[]{XCInfoItems.CENTRIFUGE_TIPS});
 
-    public static final UnplaceableBlock MOLYBDENUM_DUST = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.MOLYBDENUM_DUST, RecipeType.NULL, new ItemStack[]{XCCentrifugeTips.INSTANCE.getItem()});
+    public static final UnplaceableBlock MOLYBDENUM_DUST = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.MOLYBDENUM_DUST, RecipeType.NULL, new ItemStack[]{XCInfoItems.CENTRIFUGE_TIPS});
 
     public static final UnplaceableBlock STARLIGHT_INGOT = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, 
             XCItemStacks.STARLIGHT_INGOT, RecipeType.ANCIENT_ALTAR, 
@@ -80,7 +80,18 @@ public class XCItems {
             }
     );
 
-    public static final UnplaceableBlock PURE_URANIUM = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.PURE_URANIUM, RecipeType.NULL, new ItemStack[]{XCCentrifugeTips.INSTANCE.getItem()});
+    public static final UnplaceableBlock PURE_URANIUM = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.PURE_URANIUM, RecipeType.NULL, new ItemStack[]{XCInfoItems.CENTRIFUGE_TIPS});
 
-    public static final UnplaceableBlock IMPURITY = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.IMPURITY, RecipeType.NULL, new ItemStack[]{XCCentrifugeTips.INSTANCE.getItem()});
+    public static final UnplaceableBlock IMPURITY = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.IMPURITY, RecipeType.NULL, new ItemStack[]{XCInfoItems.CENTRIFUGE_TIPS});
+
+    //奇点
+    public static final UnplaceableBlock REDSTONE_ALLOY_SINGULARITY = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.REDSTONE_ALLOY_SINGULARITY, RecipeType.NULL, new ItemStack[]{XCInfoItems.SINGULARITY_CONSTRUCTOR_TIPS});
+
+    public static final UnplaceableBlock CARBONADO_SINGULARITY = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.CARBONADO_SINGULARITY, RecipeType.NULL, new ItemStack[]{XCInfoItems.SINGULARITY_CONSTRUCTOR_TIPS});
+
+    public static final UnplaceableBlock SYNTHETIC_EMERALD_SINGULARITY = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.SYNTHETIC_EMERALD_SINGULARITY, RecipeType.NULL, new ItemStack[]{XCInfoItems.SINGULARITY_CONSTRUCTOR_TIPS});
+
+    public static final UnplaceableBlock ELECTRO_MAGNET_SINGULARITY = new UnplaceableBlock(XCGroups.MATERIALS_GROUP, XCItemStacks.ELECTRO_MAGNET_SINGULARITY, RecipeType.NULL, new ItemStack[]{XCInfoItems.SINGULARITY_CONSTRUCTOR_TIPS});
+
+
 }

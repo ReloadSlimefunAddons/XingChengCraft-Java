@@ -1,7 +1,6 @@
 package org.rsfa.fx_mmm.xingchengcraft.materials;
 
 import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
@@ -10,7 +9,6 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.block.Biome;
 import org.bukkit.inventory.ItemStack;
-import org.rsfa.fx_mmm.xingchengcraft.materials.AbstractXingChengItemNotPlaceable;
 import org.rsfa.fx_mmm.xingchengcraft.objects.XCGroups;
 import org.rsfa.fx_mmm.xingchengcraft.XingChengCraft;
 import org.rsfa.fx_mmm.xingchengcraft.objects.XCItemStacks;
